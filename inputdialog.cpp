@@ -1,6 +1,4 @@
 #include "inputdialog.h"
-#include <QDebug>
-#include <QPointer>
 
 
 InputDialog::InputDialog(QWidget *parent, const QString &title, InputDialog::Mode inputMode)
