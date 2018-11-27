@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InputDialog</class>
+ <widget class="QDialog" name="InputDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>498</width>
+    <height>239</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>inputdialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QPlainTextEdit" name="pte">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="minimumSize">
+      <size>
+       <width>480</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_abc">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="abc_row_1">
+         <item>
+          <widget class="QPushButton" name="pb_q">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>q</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>113</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_w">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>w</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>119</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_e">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>101</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_r">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>r</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>114</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_t">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>t</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>116</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_y">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>y</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>121</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_u">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>u</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>117</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_i">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>i</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>105</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_o">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>o</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>111</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_p">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>p</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>112</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="abc_row_2">
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_a">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>a</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>97</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_s">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>s</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>115</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_d">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>d</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>100</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_f">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>f</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>102</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_g">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>g</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>103</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_h">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>h</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>104</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_j">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>j</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>106</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_k">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>k</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>107</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_l">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>l</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>108</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="abc_row_3">
+         <item>
+          <widget class="QPushButton" name="pb_caps">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>caps</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_z">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>z</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>122</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_x">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>x</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>120</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_c">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>c</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>99</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_v">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>v</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>118</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_b">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>b</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>98</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_n">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>n</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>110</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_m">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>m</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>109</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_del">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Del</string>
+           </property>
+           <property name="autoRepeat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="abc_row_4" stretch="0,8,0">
+         <item>
+          <widget class="QPushButton" name="pb_number">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>123</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_space">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Space</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>32</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_done">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Done</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_number">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="number_row_1">
+         <item>
+          <widget class="QPushButton" name="pb_number_1">
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>49</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_2">
+           <property name="text">
+            <string>2</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>50</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_3">
+           <property name="text">
+            <string>3</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>51</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_4">
+           <property name="text">
+            <string>4</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>52</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_5">
+           <property name="text">
+            <string>5</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>53</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_6">
+           <property name="text">
+            <string>6</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>54</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_7">
+           <property name="text">
+            <string>7</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>55</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_8">
+           <property name="text">
+            <string>8</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>56</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_9">
+           <property name="text">
+            <string>9</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>57</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_0">
+           <property name="text">
+            <string>0</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>48</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="number_row_2">
+         <item>
+          <widget class="QPushButton" name="pb_sym_exclamation_mark">
+           <property name="text">
+            <string>!</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>33</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_at">
+           <property name="text">
+            <string>@</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>64</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_number_sign">
+           <property name="text">
+            <string>#</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>35</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_dollor_sign">
+           <property name="text">
+            <string>$</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>36</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_percentage">
+           <property name="text">
+            <string>%</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>37</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_ampersand">
+           <property name="text">
+            <string>&amp;&amp;</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>38</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_plus">
+           <property name="text">
+            <string>+</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>43</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_question_mark">
+           <property name="text">
+            <string>?</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>63</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_back_slash">
+           <property name="text">
+            <string>/</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>47</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_dot">
+           <property name="text">
+            <string>.</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>46</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="number_row_3">
+         <item>
+          <widget class="QPushButton" name="pb_sym_asterisk">
+           <property name="text">
+            <string>*</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>42</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_underscore">
+           <property name="text">
+            <string>_</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>95</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_double_acute">
+           <property name="text">
+            <string>&quot;</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>34</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_acute">
+           <property name="text">
+            <string>'</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>39</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_open_bracket">
+           <property name="text">
+            <string>(</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>40</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_close_bracket">
+           <property name="text">
+            <string>)</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>41</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_hyphen">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>45</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_colon">
+           <property name="text">
+            <string>:</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>58</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_sym_comma">
+           <property name="text">
+            <string>,</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>44</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_del">
+           <property name="text">
+            <string>Del</string>
+           </property>
+           <property name="autoRepeat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="number_row_4" stretch="0,8,0">
+         <property name="spacing">
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pb_number_abc">
+           <property name="text">
+            <string>abc</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_space">
+           <property name="text">
+            <string>Space</string>
+           </property>
+           <property name="value" stdset="0">
+            <char>
+             <unicode>32</unicode>
+            </char>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pb_number_done">
+           <property name="text">
+            <string>Done</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_status">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
